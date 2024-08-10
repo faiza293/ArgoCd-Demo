@@ -10,7 +10,7 @@ metadata:
 spec:
   project: production
   source:
-    repoURL: https://github.com/devopsparadox/argo-combined-demo.git
+    repoURL: https://github.com/faiza293/argo-combined-app
     targetRevision: HEAD
     path: production
   destination:
@@ -33,7 +33,7 @@ metadata:
 spec:
   project: staging
   source:
-    repoURL: https://github.com/devopsparadox/argo-combined-demo.git
+    repoURL: https://github.com/faiza293/argo-combined-app
     targetRevision: HEAD
     path: staging
   destination:
