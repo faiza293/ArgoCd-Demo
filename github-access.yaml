@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: github-access
+  namespace: argo-events
+type: Opaque
+data:
+  token: Z2l0aHViX3BhdF8xMUJBSVM0NVEwTUV3SnY4OXRLNFo2X2R6bEZrVTRHdmJPRklrbGxnd0RWVFhHS3ZDb1pVTUhNcmxOaU5QS3BFeTNWUlRISFhUSUNoSWJoeEhN 
+
